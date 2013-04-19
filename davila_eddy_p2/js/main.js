@@ -1,4 +1,5 @@
-/* <!-- Eddy Davila -->
+/*
+<!-- Eddy Davila -->
 <!-- CSS Selector -->
 <!-- Visual Frameworks -->
 <!-- Term 1304 --> 
@@ -131,7 +132,7 @@ function toggleControls(n){
 		item.comments			= ["Comments:", 	$('comments').value];
 	// Stringify
 	localStorage.setItem(id, JSON.stringify(item));
-	alert("Contact Saved!");
+	alert("Purchase Saved!");
 }
 
 	// Get Data
